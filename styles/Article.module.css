@@ -1,0 +1,27 @@
+.article-paper {
+    padding: 0.1rem 5vw 1rem 5vw;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none
+}
+
+.article-img {
+    margin: 15px auto 15px auto !important;
+}
+
+.article-action {
+    padding: 0 16px;
+}
+
+.article-action :hover {
+    color: rgb(0, 61, 175)
+}
+
+.article-subheader{
+    display: flex;
+}
+
+.article-subheader span {
+    margin-right: 0.5em;
+}

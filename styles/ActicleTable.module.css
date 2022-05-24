@@ -1,0 +1,42 @@
+.table-article-title-col h2 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.table-article-title-col p {
+    margin: 0;
+}
+
+.table-article-title-col p:last-child {
+    color: rgb(121, 121, 121);
+    font-size: 0.85em;
+    margin: 10 0;
+}
+
+.articles-table>table {
+    border-collapse: collapse;
+}
+
+.article-table-body>tr {
+    border-bottom: 1px solid #000;
+    vertical-align: top;
+}
+
+
+.article-table-body>tr>td {
+    padding: 0.75em;
+}
+
+.articles-table {
+    margin: 2em 10vw;
+}
+
+.article-table-body>tr>td:first-child>p {
+    min-width: fit-content;
+    white-space: nowrap
+}
+
+.article-table-body>tr>td:nth-child(2) {
+    max-width: 50vw
+}

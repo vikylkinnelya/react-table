@@ -1,0 +1,20 @@
+.nav-categories {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 6em;
+    margin: 0 4.5vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.nav-categories li {
+    display: inline-block;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    padding: 0.5em;
+    border-radius: 3px;
+}
+
+.nav-categories li:hover {
+    background-color: rgb(245, 245, 245);
+}
